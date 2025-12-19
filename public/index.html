@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bitrix24 Export</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  </head>
+  <body>
+    <div id="app">{{ message }}</div>
+
+    <script>
+      const { createApp } = Vue;
+      createApp({
+        data() {
+          return { message: "UI is ready. Backend export endpoint will be added next." };
+        }
+      }).mount("#app");
+    </script>
+  </body>
+</html>
