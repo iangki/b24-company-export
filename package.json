@@ -1,10 +1,10 @@
 {
   "name": "b24-company-export",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "🧪 Test task - Bitrix24 REST API export (10k companies)",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
